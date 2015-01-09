@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'CRUserDefaults', :exclusive => true do
+  pod "CRUserDefaults", :path => "../"
+end
+
+target 'Tests', :exclusive => true do
+  pod "CRUserDefaults", :path => "../"
+
+  pod 'Specta', '~> 0.2.1'
+  pod 'Expecta'
+end
