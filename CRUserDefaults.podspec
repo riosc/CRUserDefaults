@@ -9,10 +9,10 @@
 
 Pod::Spec.new do |s|
   s.name             = "CRUserDefaults"
-  s.version          = "0.1.0"
-  s.summary          = "CRUserDefaults is a helper singleton that helps writing information in NSUserDefaults as object."
+  s.version          = "0.1.1"
+  s.summary          = "CRUserDefaults is a helper singleton class that helps writing information in NSUserDefaults as object."
   s.description      = <<-DESC
-CRUserDefaults is a helper singleton that helps writing information in NSUserDefaults as object.
+CRUserDefaults is a helper singleton class that helps writing information in NSUserDefaults as object.
 
 
                        * Markdown format.
