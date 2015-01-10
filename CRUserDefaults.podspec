@@ -10,19 +10,20 @@
 Pod::Spec.new do |s|
   s.name             = "CRUserDefaults"
   s.version          = "0.1.0"
-  s.summary          = "A short description of CRUserDefaults."
+  s.summary          = "CRUserDefaults is a helper singleton that helps writing information in NSUserDefaults as object."
   s.description      = <<-DESC
-                       An optional longer description of CRUserDefaults
+CRUserDefaults is a helper singleton that helps writing information in NSUserDefaults as object.
+
 
                        * Markdown format.
                        * Don't worry about the indent, we strip it!
                        DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/CRUserDefaults"
+  s.homepage         = "https://github.com/riosc/CRUserDefaults"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Carlos Rios" => "rioscarlosd@gmail.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/CRUserDefaults.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => "https://github.com/riosc/CRUserDefaults.git", :tag => s.version.to_s }
+  # s.social_media_url = 'https://twitter.com/cadamel'
 
   s.platform     = :ios, '7.0'
   s.requires_arc = true

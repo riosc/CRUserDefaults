@@ -7,6 +7,7 @@
 //
 
 #import "CRViewController.h"
+#import "CRCustomDefaults.h"
 
 @interface CRViewController ()
 
@@ -16,6 +17,12 @@
 
 - (void)viewDidLoad
 {
+    CRUser * userLocal = [[CRUser alloc] initWithName:@"Carlos" lastName:@"Rios"];
+    [CRCustomDefaults shared].user = userLocal;
+    [[CRUserDefaults class] save];
+    
+    
+    NSLog(@"User Name: %@", [CRCustomDefaults shared].user.name);
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
 }
