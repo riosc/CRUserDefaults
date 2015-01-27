@@ -33,7 +33,7 @@
  ```Objective-C
  @interface CRCustomDefaults : CRUserDefaults
  
- @property (nonatomic, strong) USer current;
+ @property (nonatomic, strong) USer * current;
  
  + (CRCustomDefaults *) shared;
  
